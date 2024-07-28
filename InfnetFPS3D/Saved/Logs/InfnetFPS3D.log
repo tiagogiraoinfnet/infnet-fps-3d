@@ -1480,3 +1480,82 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2024.07.28-21.32.03:262][894]LogEditorActor: Deleted Actor: StaticMeshActor
 [2024.07.28-21.32.03:278][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
 [2024.07.28-21.32.03:281][894]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2024.07.28-21.34.56:808][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.07.28-21.34.56:811][808]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.013
+[2024.07.28-21.40.37:184][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.07.28-21.40.39:080][595]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.28-21.40.39:107][595]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_A463A125A553280D02_1914991263 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/L7/2CVWX7H828OBCKJQLRLIAY.PackageMetaData in its package
+[2024.07.28-21.40.39:108][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.07.28-21.40.39:119][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.28-21.40.39:127][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.07.28-21.40.39:164][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.07.28-21.40.40:205][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.07.28-21.40.41:538][641]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.28-21.40.41:558][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.07.28-21.40.41:569][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.07.28-21.40.41:578][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.07.28-21.40.42:522][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.07.28-21.40.43:712][685]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.28-21.40.43:731][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.28-21.40.43:741][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.07.28-21.40.43:750][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.07.28-21.41.53:996][252]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Infnet\FPS\Game\ToUnreal\9mm.fbx)
+[2024.07.28-21.41.54:008][252]LogFbx: Loading FBX Scene from D:\Infnet\FPS\Game\ToUnreal\9mm.fbx
+[2024.07.28-21.41.54:016][252]LogFbx: FBX Scene Loaded Succesfully
+[2024.07.28-21.41.58:066][252]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.07.28-21.41.58:208][252]LogEditorFactories: Display: Auto-detected grayscale, image changed to G8
+[2024.07.28-21.41.58:208][252]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.07.28-21.41.58:211][252]LogTexture: Display: Building textures: /Game/CenarioAssets/9mm_tex.9mm_tex (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 76.145823 MB), EncodeSpeed: Fast
+[2024.07.28-21.41.58:227][252]LogFbx: Display: Triangulating static mesh 9mm
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: ================================================
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: Total job queries 3.724, among them cache hits 27 (0.73%)
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: Tracking 3.693 distinct input hashes that result in 2.656 distinct outputs (71.92%)
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: RAM used: 68,15 MiB of 512,00 MiB budget. Usage: 13.31%
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: Shaders Compiled: 3.693
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: Jobs assigned 3.693, completed 3.693 (100%)
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: Average time worker was idle: 25.37 s
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: Time job spent in pending queue: average 694.12 s, longest 1079.45 s
+[2024.07.28-21.41.58:322][252]LogShaderCompilers: Display: Job execution time: average 15.21 s, max 162.98 s
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Job life time (pending + execution): average 709.33 s, max 1101.42
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Shader code size: average 38,247 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1200.12 s
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Jobs were issued in 445 batches (only local compilation was used), average 8.30 jobs/batch
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Average processing rate: 3.08 jobs/sec
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Total thread time: 5.622,802 s
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Total thread preprocess time: 419,921 s
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Percentage time preprocessing: 7.47%
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Effective parallelization: 4.69 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 38.69 sec, max 107.20 sec, min 3.03 sec)
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display:                TSlateElementPSRoundedBoxfalsetruefalsefalseA (compiled    1 times, average 12.77 sec, max 12.77 sec, min 12.77 sec)
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled   32 times, average 11.59 sec, max 37.48 sec, min 6.05 sec)
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display:               TSlateElementPSLineSegmentfalsetruefalsefalseA (compiled    1 times, average 10.08 sec, max 10.08 sec, min 10.08 sec)
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display:                TSlateElementPSLineSegmenttruetruefalsefalseA (compiled    1 times, average 9.96 sec, max 9.96 sec, min 9.96 sec)
+[2024.07.28-21.41.58:323][252]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.07.28-21.41.58:324][252]LogShaderCompilers: Display:                                             FDeferredLightPS - 7.98% of total time (compiled  134 times, average 3.35 sec, max 45.23 sec, min 1.68 sec)
+[2024.07.28-21.41.58:324][252]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 6.60% of total time (compiled   32 times, average 11.59 sec, max 37.48 sec, min 6.05 sec)
+[2024.07.28-21.41.58:324][252]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 3.64% of total time (compiled   96 times, average 2.13 sec, max 12.00 sec, min 0.94 sec)
+[2024.07.28-21.41.58:324][252]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 2.99% of total time (compiled   96 times, average 1.75 sec, max 4.57 sec, min 0.32 sec)
+[2024.07.28-21.41.58:324][252]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 2.98% of total time (compiled  128 times, average 1.31 sec, max 12.93 sec, min 0.59 sec)
+[2024.07.28-21.41.58:324][252]LogShaderCompilers: Display: ================================================
+[2024.07.28-21.42.07:687][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.07.28-21.42.07:702][635]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.28-21.42.07:820][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.07.28-21.42.07:832][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.07.28-21.42.07:843][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.07.28-21.42.07:872][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CenarioAssets/9mm" FILE="../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Content/CenarioAssets/9mm.uasset" SILENT=true
+[2024.07.28-21.42.07:882][635]LogSavePackage: Moving output files for package: /Game/CenarioAssets/9mm
+[2024.07.28-21.42.07:882][635]LogSavePackage: Moving '../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Saved/9mmA8C78D504DB195E0D68A48967A99AC7F.tmp' to '../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Content/CenarioAssets/9mm.uasset'
+[2024.07.28-21.42.07:943][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CenarioAssets/9mm_mat" FILE="../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Content/CenarioAssets/9mm_mat.uasset" SILENT=true
+[2024.07.28-21.42.07:948][635]LogSavePackage: Moving output files for package: /Game/CenarioAssets/9mm_mat
+[2024.07.28-21.42.07:948][635]LogSavePackage: Moving '../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Saved/9mm_matEE140B4F46F01653448609BB640D1B96.tmp' to '../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Content/CenarioAssets/9mm_mat.uasset'
+[2024.07.28-21.42.07:957][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CenarioAssets/9mm_tex" FILE="../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Content/CenarioAssets/9mm_tex.uasset" SILENT=true
+[2024.07.28-21.42.07:973][635]LogSavePackage: Moving output files for package: /Game/CenarioAssets/9mm_tex
+[2024.07.28-21.42.07:973][635]LogSavePackage: Moving '../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Saved/9mm_tex4C9F49F84E859C634E1C52AD864AF3DD.tmp' to '../../../../../../Users/pc/Documents/GitHub/infnet-fps-3d/InfnetFPS3D/Content/CenarioAssets/9mm_tex.uasset'
+[2024.07.28-21.42.07:998][635]LogFileHelpers: InternalPromptForCheckoutAndSave took 296 ms
+[2024.07.28-21.42.08:010][635]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.28-21.42.08:011][635]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/CenarioAssets/9mm.9mm
+[2024.07.28-21.42.08:011][635]LogContentValidation: Display: Validating /Script/Engine.Material /Game/CenarioAssets/9mm_mat.9mm_mat
+[2024.07.28-21.42.08:011][635]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/CenarioAssets/9mm_tex.9mm_tex
